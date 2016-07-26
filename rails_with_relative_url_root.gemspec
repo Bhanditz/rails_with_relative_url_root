@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Run Rails with relative URL root.}
   spec.description   = %q{Enforces Rails relative URL root at the Rack level, i.e. before requests reach Rails.}
   spec.homepage      = 'https://github.com/europeana/rails_with_relative_url_root'
+  spec.licenses      = ['EUPL-1.1']
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = 'exe'
